@@ -1,12 +1,12 @@
-var colors =generatecol(6);
-var squares=document.querySelectorAll(".square");
-var a=pickcol();
-var wincolor =colors[a];
-var colorDisplay=document.querySelector("span");
-var message =document.querySelector("#message");
-var h1=document.querySelector("h1");
-var easy=document.querySelector("#easy");
-var hard=document.querySelector("#hard");
+let colors =generatecol(6);
+let squares=document.querySelectorAll(".square");
+let a=pickcol();
+let wincolor =colors[a];
+let colorDisplay=document.querySelector("span");
+let message =document.querySelector("#message");
+let h1=document.querySelector("h1");
+let easy=document.querySelector("#easy");
+let hard=document.querySelector("#hard");
 easy.addEventListener("click",function()
 {
 	easy.classList.add("selected");
